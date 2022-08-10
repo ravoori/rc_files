@@ -6,7 +6,6 @@ colorscheme desert
 filetype plugin indent on
 syntax on
 runtime! ftdetect/*.vim
-set encoding=utf-8
 set scrolloff=3
 set autoindent
 set showmode
@@ -17,8 +16,6 @@ set wildmode=list:longest,full
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-nnoremap / /\v
-vnoremap / /\v
 set ignorecase
 set smartcase
 set incsearch
